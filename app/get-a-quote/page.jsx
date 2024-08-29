@@ -53,6 +53,7 @@ function page() {
                                     <input
                                         type='text'
                                         className='w-full bg-zinc-800 p-3 rounded-lg'
+                                        placeholder='Enter your name'
                                         {...register('name', { required: true })}
                                     />
                                     {errors.name && <p className='text-red-500'>This field is required</p>}
@@ -62,6 +63,7 @@ function page() {
                                     <input
                                         type='email'
                                         className='w-full bg-zinc-800 p-3 rounded-lg'
+                                        placeholder='Enter your email'
                                         {...register('email', { required: true })}
                                     />
                                     {errors.email && <p className='text-red-500'>This field is required</p>}
@@ -71,6 +73,7 @@ function page() {
                                     <input
                                         type='text'
                                         className='w-full bg-zinc-800 p-3 rounded-lg'
+                                        placeholder='Enter your phone number'
                                         {...register('phone', { required: true })}
                                     />
                                     {errors.phone && <p className='text-red-500'>This field is required</p>}
@@ -79,6 +82,7 @@ function page() {
                                     <label className='text-zinc-200'>Message</label>
                                     <textarea
                                         className='w-full bg-zinc-800 p-3 rounded-lg'
+                                        placeholder='Enter your message'
                                         {...register('message', { required: true })}
                                     />
                                     {errors.message && <p className='text-red-500'>This field is required</p>}

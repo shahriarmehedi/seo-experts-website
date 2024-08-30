@@ -8,6 +8,7 @@ import Services from "@/components/home/Services";
 import Blogs from "@/components/home/Blogs";
 import Platforms from "@/components/home/Platforms";
 import Testimonials from "@/components/home/Testimonials";
+import Process from "@/components/home/Process";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
+      <Process />
       <Packagaes />
       <Platforms />
       <Testimonials />

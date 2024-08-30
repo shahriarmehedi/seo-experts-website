@@ -70,8 +70,14 @@ function page() {
                     <h2 className='text-2xl font-bold text-center pb-5 text-white'>
                         Services We Offer
                     </h2>
+
                     {/* horizontal line */}
-                    <div className='w-24 h-[2px] gradient-bg rounded-md mx-auto mb-14 opacity-70'></div>
+                    <div className='w-24 h-[4px] bg-gradient-to-r from-sky-500 to-sky-300 rounded mx-auto mb-7 opacity-70'></div>
+
+
+                    <p className='text-center text-sm text-gray-500 lg:w-2/3 mx-auto mb-20'>
+                        Our services are designed to help you succeed in the digital marketplace. We offer a range of services that are tailored to your specific needs. Whether you need help with SEO, content creation, or website optimization, we have got you covered.
+                    </p>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-10'>
                         {

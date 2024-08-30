@@ -26,11 +26,13 @@ function Navbar() {
 
                 <div className="lg:flex hidden gap-5 items-center">
                     <Link href='/' className='hover:text-sky-500 transition duration-200 text-gray-200'>Home </Link>
+                    <Link href='/about-us' className='hover:text-sky-500 transition duration-200 text-gray-200'>About Us</Link>
+                    <Link href='/services' className='hover:text-sky-500 transition duration-200 text-gray-200'>Services</Link>
                     <Link href='/blog' className='hover:text-sky-500 transition duration-200 text-gray-200'>Blog</Link>
 
                     <Link href='/get-a-quote' className='hover:text-sky-500 transition duration-200'>
                         <button className='bg-sky-500 border-sky-500 px-7 py-2 rounded-full border hover:border-opacity-70 hover:border-sky-500 hover:bg-black text-white transition duration-200'>
-                            Get A Quote
+                            Free Consultation
                         </button>
                     </Link>
                 </div>
@@ -51,8 +53,8 @@ function Navbar() {
 
                     <div
                         onClick={handleMenu}
-                        className='flex justify-end'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        className='flex justify-end cursor-pointer'>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                         </svg>
                     </div>
@@ -60,13 +62,15 @@ function Navbar() {
 
                     <div
                         onClick={handleMenu}
-                        className='flex flex-col gap-5 text-white justify-center'>
-                        <Link href='/' className='hover:text-sky-500 transition duration-200'>Home </Link>
-                        <Link href='/blog' className='hover:text-sky-500 transition duration-200'>Blog </Link>
+                        className='flex flex-col gap-7 text-white justify-center items-center'>
+                        <Link href='/' className='hover:text-sky-500 transition duration-200 text-gray-200'>Home </Link>
+                        <Link href='/about-us' className='hover:text-sky-500 transition duration-200 text-gray-200'>About Us</Link>
+                        <Link href='/services' className='hover:text-sky-500 transition duration-200 text-gray-200'>Services</Link>
+                        <Link href='/blog' className='hover:text-sky-500 transition duration-200 text-gray-200'>Blog</Link>
 
 
                         <Link href='/get-a-quote' className='hover:text-sky-500 transition duration-200'>
-                            <button className='bg-white text-black px-7 py-2 rounded-full border hover:border-opacity-70 hover:border-sky-500 hover:bg-black hover:text-white transition duration-200'>Get A Quote</button>
+                            <button className='bg-white text-black px-7 py-2 rounded-full border hover:border-opacity-70 hover:border-sky-500 hover:bg-black hover:text-white transition duration-200'>Free Consultation</button>
                         </Link>
                     </div>
                 </div>

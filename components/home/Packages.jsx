@@ -13,7 +13,7 @@ function Packages() {
                 </p>
 
 
-                <div className="max-w-7xl px-5 py-20 mx-auto flex flex-wrap">
+                <div className="max-w-7xl px-5 pt-20 mx-auto flex flex-wrap">
                     <div className="w-full mb-5 lg:mb-0 lg:w-1/4 lg:mt-48 ">
                         <div className="mt-px border-t border-zinc-800 border-b border-l rounded-tl-lg rounded-bl-lg overflow-hidden">
                             <p className="bg-zinc-900 text-zinc-200 h-12 text-center px-4 flex items-center justify-start -mt-px">On-page SEO</p>
@@ -29,12 +29,12 @@ function Packages() {
                     <div className="flex lg:w-3/4 w-full flex-wrap lg:border border-zinc-800 rounded-lg">
                         <div className="lg:w-1/3 lg:mt-px w-full mb-10 lg:mb-0 border-2 border-zinc-800 lg:border-none rounded-lg lg:rounded-none">
                             <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
-                                <h3 className="tracking-widest text-white">BASIC</h3>
-                                <h2 className="text-5xl text-zinc-200 font-medium flex items-center justify-center leading-none mb-4 mt-2">$500
+                                <h3 className="tracking-widest text-white">Package 1</h3>
+                                <h2 className="text-5xl text-zinc-200 font-medium flex items-center justify-center leading-none mb-4 mt-2">$1,000
                                     <span className="text-zinc-400 text-base ml-1">/Month</span>
                                 </h2>
-                                {/* <span className="text-sm text-zinc-400">Strategy Builder +</span>
-                                <span className="text-sm text-zinc-400">Manual Alerts</span> */}
+                                <span className="text-sm text-zinc-400"> </span>
+                                <span className="text-sm text-zinc-400"> </span>
                             </div>
                             <p className="bg-zinc-900 text-zinc-300 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-zinc-800">
                                 <span className="w-5 h-5 inline-flex items-center justify-center bg-sky-500 text-white rounded-full flex-shrink-0">
@@ -85,8 +85,8 @@ function Packages() {
                         <div className="lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border border-sky-500 rounded-lg border-opacity-50 relative">
                             <span className="bg-sky-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                             <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
-                                <h3 className="tracking-widest text-white">ADVANCED</h3>
-                                <h2 className="text-5xl text-zinc-200 font-medium flex items-center justify-center leading-none mb-4 mt-2">$1,000
+                                <h3 className="tracking-widest text-white">Package 2</h3>
+                                <h2 className="text-5xl text-zinc-200 font-medium flex items-center justify-center leading-none mb-4 mt-2">$2,000
                                     <span className="text-zinc-400 text-base ml-1">/Month</span>
                                 </h2>
                                 <span className="text-sm text-zinc-400">4 blog posts/month</span>
@@ -143,8 +143,8 @@ function Packages() {
                         <div className="lg:w-1/3 w-full lg:mt-px border-2 border-zinc-800 lg:border-none rounded-lg lg:rounded-none">
                             <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
                                 <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
-                                    <h3 className="tracking-widest text-white">PREMIUM</h3>
-                                    <h2 className="text-5xl text-zinc-200 font-medium flex items-center justify-center leading-none mb-4 mt-2">$2,000
+                                    <h3 className="tracking-widest text-white">Package 3</h3>
+                                    <h2 className="text-5xl text-zinc-200 font-medium flex items-center justify-center leading-none mb-4 mt-2">$3,500
                                         <span className="text-zinc-400 text-base ml-1">/Month</span>
                                     </h2>
                                     <span className="text-sm text-zinc-400">
@@ -211,6 +211,11 @@ function Packages() {
                         </div>
                     </div>
                 </div>
+
+                <p className='text-center text-sm py-14'>
+                    All packages can be tailored to meet the specific needs of clients and
+                    scaled up or down as necessary.
+                </p>
             </section>
         </div>
     )

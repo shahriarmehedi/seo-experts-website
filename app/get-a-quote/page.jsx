@@ -40,7 +40,7 @@ function page() {
                 <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
                     <div className='flex flex-col items-center gap-10'>
                         <div className='text-center'>
-                            <h1 className='text-zinc-200 text-2xl font-semibold text-center pt-5 pb-10'>Get A Quote</h1>
+                            <h1 className='text-zinc-200 text-2xl font-semibold text-center pt-5 pb-10'>Get Free SEO Audit & Consultation</h1>
                         </div>
                     </div>
 

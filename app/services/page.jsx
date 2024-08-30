@@ -1,7 +1,10 @@
-import Link from 'next/link'
 import React from 'react'
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
-function Services() {
+
+
+function page() {
 
 
     const services = [
@@ -59,54 +62,52 @@ function Services() {
 
 
 
-
     return (
-        <div id='services' className='bg-black text-white'>
-            <div className='max-w-7xl mx-auto py-20 lg:py-32 px-7 2xl:px-0'>
-                <h2 className='text-2xl font-bold text-center pb-5 text-white'>
-                    Services We Offer
-                </h2>
-                {/* horizontal line */}
-                <div className='w-24 h-[2px] gradient-bg rounded-md mx-auto mb-14 opacity-70'></div>
+        <div>
+            <Navbar />
+            <div id='services' className='bg-black text-white'>
+                <div className='max-w-7xl mx-auto py-20 lg:py-32 px-7 2xl:px-0'>
+                    <h2 className='text-2xl font-bold text-center pb-5 text-white'>
+                        Services We Offer
+                    </h2>
+                    {/* horizontal line */}
+                    <div className='w-24 h-[2px] gradient-bg rounded-md mx-auto mb-14 opacity-70'></div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-10'>
-                    {
-                        services.map((service, idx) => (
-                            <div key={idx} className='bg-white bg-opacity-5 hover:border-opacity-50 transition duration-500 cursor-pointer group  border border-sky-500 border-opacity-20 p-7 rounded-xl shadow-md hover:translate-y-[-5px]'>
-                                <div className="flex flex-col gap-2">
-                                    <div className='bg-sky-500 p-1 w-[37px] rounded-lg bg-opacity-10 text-sky-500 group-hover:text-white group-hover:bg-opacity-100  group-hover:border-gray-800 group-hover:border-opacity-50 transition duration-300'>
-                                        {service.icon}
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-10'>
+                        {
+                            services.map((service, idx) => (
+                                <div key={idx} className='bg-white bg-opacity-5 hover:border-opacity-50 transition duration-500 cursor-pointer group  border border-sky-500 border-opacity-20 p-7 rounded-xl shadow-md hover:translate-y-[-5px]'>
+                                    <div className="flex flex-col gap-2">
+                                        <div className='bg-sky-500 p-1 w-[37px] rounded-lg bg-opacity-10 text-sky-500 group-hover:text-white group-hover:bg-opacity-100  group-hover:border-gray-800 group-hover:border-opacity-50 transition duration-300'>
+                                            {service.icon}
+                                        </div>
+                                        <h3 className='text-xl text-white text-opacity-80 group-hover:text-sky-500 transition duration-500 '>
+                                            {service.title}
+                                        </h3>
+
                                     </div>
-                                    <h3 className='text-xl text-white text-opacity-80 group-hover:text-sky-500 transition duration-500 '>
-                                        {service.title}
-                                    </h3>
-
-                                </div>
-                                <p className='
-                                overflow-hidden
-                                line-clamp-3
+                                    <p className='
                                 mt-3 text-sm text-gray-500 group-hover:text-gray-200 transition duration-500'>
-                                    {service.description}
-                                </p>
-                            </div>
-                        ))
-                    }
-                </div>
+                                        {service.description}
+                                    </p>
+                                </div>
+                            ))
+                        }
+                    </div>
 
-                {/* View Details */}
-
-                <Link href='/services'>
+                    {/* View Details */}
                     <div className='text-center mt-14'>
-                        <button className='hover:bg-sky-500 border-sky-500 px-10 py-2 rounded-full border border-opacity-70 hover:border-opacity-70 hover:border-sky-500 bg-black text-white transition duration-200'>
-                            View Details
+                        <button className='hover:bg-sky-500 border-sky-500 px-10 py-3 rounded-full border border-opacity-70 hover:border-opacity-70 hover:border-sky-500 bg-black text-white transition duration-200'>
+                            Get Your Free SEO Audit & Consultation
                         </button>
                     </div>
-                </Link>
 
 
+                </div>
             </div>
+            <Footer />
         </div>
     )
 }
 
-export default Services
+export default page

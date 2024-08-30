@@ -22,7 +22,7 @@ function Hero() {
                             <div className='mt-10'>
                                 <Link href='/get-a-quote'>
                                     <button className='px-10 py-3 rounded-full border border-sky-500 bg-sky-500 hover:border-sky-500 hover:bg-black text-white  transition duration-200 flex gap-2 items-center justify-center'>
-                                        Get A Quote
+                                        Free SEO Audit & Consultation
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                         </svg>
